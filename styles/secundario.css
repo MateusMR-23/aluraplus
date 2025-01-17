@@ -26,3 +26,35 @@
     display: inline-block;
     margin-top: 1em;
 }
+
+@media screen and (max-width: 768px) {
+    .secundario {
+        margin: 0;
+        text-align: center;
+    }
+
+    .secundario__imagem {
+        width: 50vw;
+        margin-bottom: 1em;
+    }
+
+    .container__descricao {
+        margin: 0 3em;
+    }
+
+    .descricao__titulo {
+        font-size: 28px !important;
+    }
+
+    .descricao__texto {
+        margin-top: 1em;
+    }
+
+    .descricao__texto-secundario {
+        padding: 0;
+    }
+
+    .secundario__botao {
+        margin: 1.5em 0;
+    }
+}

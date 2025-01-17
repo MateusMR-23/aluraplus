@@ -12,7 +12,7 @@
 }
 
 .rodape__lista .lista__link a {
-    margin: 0 0.5em 2em 0.5em;
+    margin: 0 1em 2em 1em;
     text-decoration: none;
     list-style-type: none;
     color: var(--branco-principal);
@@ -34,4 +34,26 @@
 
 .rodape__texto-final {
     margin-bottom: 5em;
+}
+
+@media screen and (max-width: 768px) {
+    .rodape__lista {
+        display: block;
+    }
+
+    .rodape__texto {
+        margin: 2em 3em;
+    }
+
+    .lista__link {
+        margin: 0.5em 0;
+    }
+
+    .lista__link a:hover, .lista__link a:active {
+        display: none;
+    }
+
+    .rodape__texto-final {
+        margin-bottom: 5em;
+    }
 }
